@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm --needed qemu-arch-extra
 
 # add user to group libvirt
 user=$(whoami)
-sudo gpasswd -a $user libvirtd
+sudo gpasswd -a $user libvirt
 
 # add service libvirtd enable in systemctl
 sudo systemctl enable libvirtd

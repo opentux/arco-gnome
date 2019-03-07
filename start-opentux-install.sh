@@ -15,6 +15,7 @@ sh disable-nvidia.sh
 sh Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
 sh AUR/install-zsh-v3.sh
 sh Personal/400-zsh-software-themes-v1.sh
+sh virtu.sh
 
 #copy arco wallpaper to Image folder
 
