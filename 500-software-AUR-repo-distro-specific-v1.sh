@@ -39,6 +39,8 @@ sh AUR-DS/install-nvidia-xrun-v*.sh
 
 sh AUR-DS/install-timeshift-v*.sh
 
+sh AUR-DS/install-mint-y-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
