@@ -65,7 +65,7 @@ echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
-sudo pacman -S --noconfirm --needed snappy
+sudo pacman -S --noconfirm --needed snappy-player
 sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
 
@@ -84,6 +84,7 @@ echo "Installing category Other"
 echo "Installing category System"
 
 sudo pacman -S --noconfirm --needed arc-gtk-theme
+sudo pacman -S --noconfirm --needed arc-kde
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
