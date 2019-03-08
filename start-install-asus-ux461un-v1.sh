@@ -17,6 +17,12 @@ sh AUR/install-zsh-v3.sh
 sh Personal/400-zsh-software-themes-v1.sh
 sh virtu.sh
 
+# copy default home 
+
+sh default-home.sh
+
 #copy arco wallpaper to Image folder
 
 cp -v /usr/share/backgrounds/arcolinux/* /home/opentux/Images/
+
+
