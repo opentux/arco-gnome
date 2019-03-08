@@ -10,5 +10,6 @@ Tutorials on https://arcolinuxd.com
 
 # Custom version arco-gnome for my personal use (with a laptop asus ux461un) 
 with intel graphics uhd 620 and nvidia-xrun for nvidia mx150
+this repository will be used as an experiment on scripts
 
 Thanks Erik Dubois for the original works
