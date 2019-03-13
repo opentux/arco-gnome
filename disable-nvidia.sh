@@ -3,6 +3,13 @@
 # Disable nouveau kernel module
 sudo bash -c "echo 'blacklist nouveau' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo bash -c "echo 'options nouveau modeset=0' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia-modeset' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia-uvm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist ttm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist drm_kms_helper' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist drm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+
 sudo mkinitcpio -p linux
 
 
@@ -11,7 +18,7 @@ sudo pacman -S --noconfirm --needed bbswitch
 #sudo pacman -S --noconfirm --needed bbswitch-dkms
 
 sudo bash -c "echo 'bbswitch ' > /etc/modules-load.d/bbswitch.conf"
-sudo bash -c "echo 'options bbswitch load_state=0 unload_state=1' > /etc/modprobe.d/bbswitch.conf"
+sudo bash -c "echo 'options bbswitch load_state=0 unload_state=0' > /etc/modprobe.d/bbswitch.conf"
 
 # install intel media driver and utils#
 
