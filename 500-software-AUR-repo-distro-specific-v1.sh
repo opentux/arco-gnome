@@ -43,6 +43,8 @@ sh AUR-DS/install-mint-y-v*.sh
 
 sh AUR-DS/install-google-chrome-v*.sh
 
+sh AUR-DS/install-flat-remix-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"

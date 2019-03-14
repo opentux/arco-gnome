@@ -65,9 +65,9 @@ echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
-sudo pacman -S --noconfirm --needed snappy-player
+#sudo pacman -S --noconfirm --needed snappy-player
 sudo pacman -S --noconfirm --needed vlc
-#sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed totem
 
 echo "Installing category Office"
 
@@ -102,8 +102,10 @@ sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
+sudo pacman -S --noconfirm --needed gvfs-google
 #sudo pacman -S --noconfirm --needed hardinfo
-#sudo pacman -S --noconfirm --needed hddtemp
+sudo pacman -S --noconfirm --needed hddtemp
+sudo pacman -S --noconfirm --needed hdparm
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed kvantum-qt5
 sudo pacman -S --noconfirm --needed kvantum-theme-arc
