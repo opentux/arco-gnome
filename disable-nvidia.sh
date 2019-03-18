@@ -3,12 +3,12 @@
 # Disable nouveau kernel module
 sudo bash -c "echo 'blacklist nouveau' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo bash -c "echo 'options nouveau modeset=0' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist nvidia' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist nvidia-modeset' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist nvidia-uvm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist ttm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist drm_kms_helper' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
-sudo bash -c "echo 'blacklist drm' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia-modeset' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist nvidia-uvm' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist ttm' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist drm_kms_helper' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+sudo bash -c "echo 'blacklist drm' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 
 sudo mkinitcpio -p linux
 
@@ -31,4 +31,10 @@ sudo bash -c "echo 'export LIBVA_DRIVER_NAME=iHD' > /etc/profile.d/intel-media.s
 # install mesa-demos for glxgear
 sudo pacman -R --noconfirm glxinfo
 sudo pacman -S --noconfirm --needed mesa-demos
+
+# install bumblebeed
+
+sudo pacman -S --noconfirm bumblebee
+systemctl enable bumblebeed.service
+sufo gpasswd -a opentux bumblebee
 
