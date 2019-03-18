@@ -14,8 +14,8 @@ sh 700-installing-fonts-v2.sh
 sh 900-fix-microcode-error-v1.sh
 sh disable-nvidia.sh
 sh Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
-sh AUR/install-zsh-v3.sh
-sh Personal/400-zsh-software-themes-v1.sh
+#sh AUR/install-zsh-v3.sh
+#sh Personal/400-zsh-software-themes-v1.sh
 sh virtu.sh
 sh setup-git-v1.sh
 
