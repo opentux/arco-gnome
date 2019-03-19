@@ -95,14 +95,14 @@ sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
 sudo pacman -S --noconfirm --needed gnome-system-monitor
-#sudo pacman -S --noconfirm --needed gnome-terminal
+sudo pacman -S --noconfirm --needed gnome-terminal
 sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
-sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
+sudo pacman -S --noconfirm --needed gvfs gvfs-mtp gvfs-smb
 sudo pacman -S --noconfirm --needed gvfs-google
-#sudo pacman -S --noconfirm --needed hardinfo
+sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed hdparm
 sudo pacman -S --noconfirm --needed htop

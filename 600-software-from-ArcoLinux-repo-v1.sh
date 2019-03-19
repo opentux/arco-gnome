@@ -42,9 +42,9 @@ sudo pacman -S arcolinux-geany-git --noconfirm --needed
 #sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 sudo pacman -S arcolinux-kvantum-git --noconfirm --needed
 #sudo pacman -S arcolinux-kvantum-plasma-git --noconfirm --needed
-sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
+#sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter-plasma --noconfirm --needed
-sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
+#sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S arcolinux-local-git --noconfirm --needed
 #sudo pacman -S arcolinux-logo-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
@@ -98,10 +98,10 @@ echo "####     Software from ArcoLinux 3party Repository           ####"
 echo "################################################################"
 echo "Retry if it times out - large files to download"
 
-sudo pacman -S --noconfirm --needed discord
-sudo pacman -S --noconfirm --needed dropbox
+#sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed dropbox
 #sudo pacman -S --noconfirm --needed insync
-sudo pacman -S --noconfirm --needed spotify
+#sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"

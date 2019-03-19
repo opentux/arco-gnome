@@ -10,7 +10,7 @@ sudo sed -i '/#COMPRESSION_OPTIONS=()/c\COMPRESSION_OPTIONS=(-9)' /etc/mkinitcpi
 
 sudo mkinitcpio -p linux
 
-sudo sed -i '/GRUB_TIMEOUT=5/c\GRUB_TIMEOUT=3' /etc/default/grub
+sudo sed -i '/GRUB_TIMEOUT=5/c\GRUB_TIMEOUT=0' /etc/default/grub
 sudo sed -i '/#GRUB_HIDDEN_TIMEOUT=5/c\GRUB_HIDDEN_TIMEOUT=0' /etc/default/grub
 sudo sed -i '/#GRUB_HIDDEN_TIMEOUT_QUIET=true/c\GRUB_HIDDEN_TIMEOUT_QUIET=true' /etc/default/grub
 

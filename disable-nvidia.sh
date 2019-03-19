@@ -37,6 +37,6 @@ sudo pacman -S --noconfirm --needed mesa-demos
 # install bumblebeed
 
 sudo pacman -S --noconfirm bumblebee
-systemctl enable bumblebeed.service
-sufo gpasswd -a $user bumblebee
+sudo systemctl enable bumblebeed.service
+sudo gpasswd -a $user bumblebee
 
