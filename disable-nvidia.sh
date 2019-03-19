@@ -1,5 +1,7 @@
 #!/bin/bash
 
+user=$(whoami)
+
 # Disable nouveau kernel module
 sudo bash -c "echo 'blacklist nouveau' > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo bash -c "echo 'options nouveau modeset=0' >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
@@ -36,5 +38,5 @@ sudo pacman -S --noconfirm --needed mesa-demos
 
 sudo pacman -S --noconfirm bumblebee
 systemctl enable bumblebeed.service
-sufo gpasswd -a opentux bumblebee
+sufo gpasswd -a $user bumblebee
 

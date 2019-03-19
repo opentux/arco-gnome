@@ -17,14 +17,22 @@ sh Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
 #sh AUR/install-zsh-v3.sh
 #sh Personal/400-zsh-software-themes-v1.sh
 sh virtu.sh
-sh setup-git-v1.sh
+sh perso-opti.sh
+#sh setup-git-v1.sh
 
 # copy default home 
 
 sh default-home.sh
 
+# delete termite
+pacman -R --noconfirm termite
+# delete amd ucode
+pacman -R --noconfirm amd-ucode
+
 #copy arco wallpaper to Image folder
 
 cp -v /usr/share/backgrounds/arcolinux/* /home/opentux/Images/
 
+# clean cache install
+yay -Sc --noconfirm
 

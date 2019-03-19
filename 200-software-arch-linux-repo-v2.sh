@@ -20,7 +20,6 @@ set -e
 echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed cmatrix
-sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed guake
@@ -64,7 +63,7 @@ echo "Installing category Multimedia"
 
 sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed shotwell
-sudo pacman -S --noconfirm --needed simplescreenrecorder
+#sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed snappy-player
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed totem
@@ -119,7 +118,7 @@ sudo pacman -S --noconfirm --needed noto-fonts
 #sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed qt5ct
 #sudo pacman -S --noconfirm --needed sane
-sudo pacman -S --noconfirm --needed screenfetch
+#sudo pacman -S --noconfirm --needed screenfetch
 #sudo pacman -S --noconfirm --needed scrot
 #sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
