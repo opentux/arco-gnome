@@ -29,3 +29,6 @@ and launch
 and reboot
 or
 ./start-install-Desktop-nvidia-v1.sh #### for desktop with nvidia gpu
+
+
+# beware of the change to version 3.32 there are a lot of bug not yet fixed with gnome-extensions and the dock !!!!!!
