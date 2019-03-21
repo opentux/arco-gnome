@@ -15,8 +15,8 @@ sudo sed -i '/#GRUB_HIDDEN_TIMEOUT=5/c\GRUB_HIDDEN_TIMEOUT=0' /etc/default/grub
 sudo sed -i '/#GRUB_HIDDEN_TIMEOUT_QUIET=true/c\GRUB_HIDDEN_TIMEOUT_QUIET=true' /etc/default/grub
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-# add conf intel-undervolt for intel 8550u
 
+# add conf intel-undervolt for intel 8550u
 sudo sed -i "/undervolt 0 'CPU' 0/c\undervolt 0 'CPU' -90" /etc/intel-undervolt.conf
 sudo sed -i "/undervolt 1 'GPU' 0/c\undervolt 1 'CPU' -50" /etc/intel-undervolt.conf
 sudo sed -i "/undervolt 2 'CPU Cache' 0/c\undervolt 2 'CPU Cache' -90" /etc/intel-undervolt.conf
