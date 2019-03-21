@@ -89,6 +89,7 @@ sh AUR/install-vmworkstation-v*.sh
 
 sudo hardcode-fixer
 
+sh AUR/install-zsh-v3.sh
 
 
 echo "################################################################"
