@@ -71,10 +71,10 @@ sh AUR/install-oxy-neon-v*.sh
 sh AUR/install-pamac-aur-v*.sh
 #sh AUR/install-paper-icon-theme-git-v*.sh
 #sh AUR/install-papirus-icon-theme-git-v*.sh
-sh AUR/install-sardi-icons-v*.sh
-sh AUR/install-sardi-extra-icons-v*.sh
+#sh AUR/install-sardi-icons-v*.sh
+#sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-v*.sh
-sh AUR/install-surfn-icons-git-v*.sh
+#sh AUR/install-surfn-icons-git-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
 #sh AUR/install-virtualbox-for-linux-v*.sh
@@ -83,7 +83,13 @@ sh AUR/install-xcursor-breeze-v*.sh
 # these come always last
 
 sh AUR/install-hardcode-fixer-git-v*.sh
+
+# install vmware workstation
+sh AUR/install-vmworkstation-v*.sh
+
 sudo hardcode-fixer
+
+
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
