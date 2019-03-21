@@ -49,6 +49,7 @@ sh AUR-DS/install-flat-remix-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
 
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
