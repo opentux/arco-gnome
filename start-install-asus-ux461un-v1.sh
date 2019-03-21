@@ -1,10 +1,10 @@
 #!/bin/bash
 
 sh 000-use-all-cores-makepkg-conf-v3.sh
+sh 140-install-samba-v3.sh
 sh 100-display-manager-and-desktop-v1.sh
 sh 110-install-sound-v3.sh
 sh 120-bluetooth-v2.sh
-#sh 140-install-samba-v3.sh
 sh 150-install-network-discovery-v4.sh
 sh 160-install-tlp-for-laptops-v1.sh
 sh 200-software-arch-linux-repo-v2.sh
