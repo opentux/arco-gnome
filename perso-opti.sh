@@ -24,3 +24,9 @@ sudo sed -i "/undervolt 2 'CPU Cache' 0/c\undervolt 2 'CPU Cache' -90" /etc/inte
 sudo systemctl restart intel-undervolt
 sudo systemctl status intel-undervolt
 sudo intel-undervolt read
+
+#Fast reboot
+
+sudo systemctl stop lvm2-lvmetad.socket lvm2-lvmetad.service
+sudo systemctl disable lvm2-lvmetad.socket lvm2-lvmetad.service
+
