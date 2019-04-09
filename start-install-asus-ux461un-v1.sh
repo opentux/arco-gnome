@@ -15,7 +15,7 @@ sh 200-software-arch-linux-repo-v2.sh
 sh 300-software-AUR-repo-v1.sh
 sh 400-software-arch-linux-repo-distro-specific-v1.sh
 sh 500-software-AUR-repo-distro-specific-v1.sh
-sh 600-software-from-ArcoLinux-repo-v1.sh
+#sh 600-software-from-ArcoLinux-repo-v1.sh
 sh 700-installing-fonts-v2.sh
 sh 900-fix-microcode-error-v1.sh
 sh disable-nvidia.sh
