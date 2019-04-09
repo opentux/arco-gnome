@@ -26,10 +26,10 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S --noconfirm --needed gdm
 
 #installing desktop environment
-#sudo pacman -S gnome gnome-extra --noconfirm --needed
+sudo pacman -S gnome gnome-extra --noconfirm --needed
 
 # add arco wallpaper
-sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git 
+#sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git 
 
 # add gnome software and flatpak
 sudo pacman -S --noconfirm --needed gnome-software 
