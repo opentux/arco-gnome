@@ -16,9 +16,9 @@ set -e
 echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
 
 
-#sh AUR-DS/install-chrome-gnome-shell-git-v*.sh
+sh AUR-DS/install-chrome-gnome-shell-git-v*.sh
 
-#sh AUR-DS/install-gnome-terminal-transparency-v*.sh
+sh AUR-DS/install-gnome-terminal-transparency-v*.sh
 
 #sh AUR-DS/install-nautilus-compare-v*.sh
 
@@ -43,12 +43,13 @@ sh AUR-DS/install-mint-y-v*.sh
 
 sh AUR-DS/install-google-chrome-v*.sh
 
-sh AUR-DS/install-flat-remix-v*.sh
+#sh AUR-DS/install-flat-remix-v*.sh
 
 #sh AUR-DS/install-gitkraken-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
 
+SH AUR-DS/install-optimus-manager-v*.sh
 
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
