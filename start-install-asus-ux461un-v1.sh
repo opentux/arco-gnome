@@ -26,14 +26,14 @@ sh setup-git-v1.sh
 
 # copy default home 
 
-sh default-home.sh
+#sh default-home.sh
 
 # delete termite
 sudo pacman -R --noconfirm termite
 
 #copy arco wallpaper to Image folder
 
-cp -v /usr/share/backgrounds/arcolinux/* /home/opentux/Images/
+#cp -v /usr/share/backgrounds/arcolinux/* /home/opentux/Images/
 
 # clean cache install
 yay -Sc --noconfirm
