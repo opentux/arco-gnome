@@ -85,7 +85,7 @@ sh AUR/install-xcursor-breeze-v*.sh
 sh AUR/install-hardcode-fixer-git-v*.sh
 
 # install vmware workstation
-sh AUR/install-vmworkstation-v*.sh
+#sh AUR/install-vmworkstation-v*.sh
 
 sudo hardcode-fixer
 

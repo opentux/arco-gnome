@@ -16,11 +16,11 @@ sudo mkinitcpio -p linux
 
 
 #disable nvidia gpu for use nvidia-xrun#
-#sudo pacman -S --noconfirm --needed bbswitch 
-#sudo pacman -S --noconfirm --needed bbswitch-dkms
+sudo pacman -S --noconfirm --needed bbswitch 
+sudo pacman -S --noconfirm --needed bbswitch-dkms
 
-#sudo bash -c "echo 'bbswitch ' > /etc/modules-load.d/bbswitch.conf"
-#sudo bash -c "echo 'options bbswitch load_state=0 unload_state=0' > /etc/modprobe.d/bbswitch.conf"
+sudo bash -c "echo 'bbswitch ' > /etc/modules-load.d/bbswitch.conf"
+sudo bash -c "echo 'options bbswitch load_state=0 unload_state=0' > /etc/modprobe.d/bbswitch.conf"
 
 # install intel media driver and utils#
 
@@ -36,7 +36,7 @@ sudo pacman -S --noconfirm --needed mesa-demos
 
 # install bumblebeed
 
-#sudo pacman -S --noconfirm bumblebee
-#sudo systemctl enable bumblebeed.service
-#sudo gpasswd -a $user bumblebee
+sudo pacman -S --noconfirm bumblebee
+sudo systemctl enable bumblebeed.service
+sudo gpasswd -a $user bumblebee
 

@@ -16,7 +16,7 @@ set -e
 echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
 
 
-sh AUR-DS/install-chrome-gnome-shell-git-v*.sh
+#sh AUR-DS/install-chrome-gnome-shell-git-v*.sh
 
 sh AUR-DS/install-gnome-terminal-transparency-v*.sh
 
