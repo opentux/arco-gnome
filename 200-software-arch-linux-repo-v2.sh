@@ -28,6 +28,11 @@ sudo pacman -S --noconfirm --needed guake
 echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed atom
+sudo pacman -S --noconfirm --needed make
+sudo pacman -S --noconfirm --needed automake
+sudo pacman -S --noconfirm --needed gcc
+sudo pacman -S --noconfirm --needed patch
+
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -52,7 +57,7 @@ sudo pacman -S --noconfirm --needed grafx2
 
 echo "Installing category Internet"
 
-#sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed firefox-i18n-fr
@@ -143,7 +148,7 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 ###############################################################################################
 
 # installation of zippers and unzippers, midnight commander 
-sudo pacman -S --noconfirm --needed unace unrar zip unzip p7zip mtools mc sharutils  uudeview  arj cabextract file-roller
+sudo pacman -S --noconfirm --needed unace unrar zip unzip p7zip mtools mc sharutils uudeview arj cabextract file-roller
 
 ###############################################################################################
 
