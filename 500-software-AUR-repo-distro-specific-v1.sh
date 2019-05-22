@@ -51,7 +51,7 @@ sh AUR-DS/install-google-chrome-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
 
-SH AUR-DS/install-optimus-manager-v*.sh
+#sh AUR-DS/install-optimus-manager-v*.sh
 
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
