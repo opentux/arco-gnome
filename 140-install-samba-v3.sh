@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+user=$(whoami)
+
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -25,8 +27,9 @@ sudo systemctl enable nmb.service
 sudo systemctl start nmb.service
 
 ##Change your username here
-read -p "What is your login? It will be used to add this user to smb : " choice
-sudo smbpasswd -a $choice
+#read -p "What is your login? It will be used to add this user to smb : " choice
+#sudo smbpasswd -a $choice
+sudo smbpasswd -a $user
 
 #access samba share windows
 sudo pacman -S --noconfirm --needed gvfs-smb
