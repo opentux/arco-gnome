@@ -14,6 +14,19 @@ this repository will be used as an experiment on scripts
 
 Thanks Erik Dubois for the original works
 
+# Start-install-asus #
+- Gnome desktop environment with gdm.
+- Application installation
+- Intel-undervolt with conf for u8550
+- gnome-shell-extension-installer # add extension install script later
+- timeshift for Snapshot 
+- gnome-boxes, virt-manager, qemu, kvm # for virtual machine
+- kernel mkinit conf for speed boot with lz4 compression
+- grub config for no waiting configuration
+- intel-media-driver # for hardware dec/enc video
+- disable nvidia gpu for use with nvidia-xrun
+
+
 for install
 
 install minimal arcolinuxD
@@ -25,10 +38,5 @@ pacman -Syyu # for upgrade
 reboot # for reboot
 
 and launch
-./start-install-asus-ux461un-v1.sh #### for notebook with optimus
+./start-install-notebook-v1.sh #### for notebook with nvidia gpu
 and reboot
-or
-./start-install-Desktop-nvidia-v1.sh #### for desktop with nvidia gpu
-
-
-# beware of the change to version 3.32 there are a lot of bug not yet fixed with gnome-extensions and the dock !!!!!!
