@@ -46,12 +46,15 @@ sh AUR-DS/install-korla-icon-theme-v*.sh
 sh AUR-DS/install-google-chrome-v*.sh
 
 #sh AUR-DS/install-flat-remix-v*.sh
-
 #sh AUR-DS/install-gitkraken-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
 
 #sh AUR-DS/install-optimus-manager-v*.sh
+
+#Gnome shell extension installer
+sh AUR-DS/install-gnome-shell-extension-installer-v*.sh
+
 
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
