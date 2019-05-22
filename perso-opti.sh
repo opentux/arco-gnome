@@ -4,8 +4,8 @@
 # add nvme i915 & bbswitch module
 # add compression lz4 for speedboot
 
-sudo sed -i '/MODULES="crc32c-intel"/c\MODULES="i915 nvme bbswitch crc32c-intel"' /etc/mkinitcpio.conf
-#sudo sed -i '/MODULES=""/c\MODULES="i915 nvme"' /etc/mkinitcpio.conf
+#sudo sed -i '/MODULES="crc32c-intel"/c\MODULES="i915 nvme bbswitch crc32c-intel"' /etc/mkinitcpio.conf
+sudo sed -i '/MODULES=""/c\MODULES="i915 nvme"' /etc/mkinitcpio.conf
 sudo sed -i '/#COMPRESSION="lz4"/c\COMPRESSION="lz4"' /etc/mkinitcpio.conf
 sudo sed -i '/#COMPRESSION_OPTIONS=()/c\COMPRESSION_OPTIONS=(-9)' /etc/mkinitcpio.conf
 
