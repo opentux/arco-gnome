@@ -32,6 +32,8 @@ sudo pacman -S --noconfirm --needed make
 sudo pacman -S --noconfirm --needed automake
 sudo pacman -S --noconfirm --needed gcc
 sudo pacman -S --noconfirm --needed patch
+sudo pacman -S --noconfirm --needed perl
+
 
 #sudo pacman -S --noconfirm --needed
 
@@ -92,6 +94,7 @@ sudo pacman -S --noconfirm --needed arc-kde
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
+sudo pacman -S --noconfirm --needed dbus
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
@@ -113,6 +116,7 @@ sudo pacman -S --noconfirm --needed hdparm
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed kvantum-qt5
 sudo pacman -S --noconfirm --needed kvantum-theme-arc
+sudo pacman -S --noconfirm --needed less
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed mlocate
