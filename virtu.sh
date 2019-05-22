@@ -15,7 +15,8 @@ sudo pacman -S --noconfirm --needed gnome-boxes
 
 # for add virt manager # we do not have to install it if use gnome-boxes for simple use.
 # but virt-managet is more complete :)
-sudo pacman -S --noconfirm --neededvirt-manager virt-viewer 
+sudo pacman -S --noconfirm --needed virt-manager  
+sudo pacman -S --noconfirm --needed virt-viewer
 
 # add user variable to group libvirt & kvm
 sudo gpasswd -a $user libvirt
