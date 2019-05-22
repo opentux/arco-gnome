@@ -17,7 +17,7 @@ sudo mkinitcpio -p linux
 
 #disable nvidia gpu for use nvidia-xrun#
 sudo pacman -S --noconfirm --needed bbswitch 
-sudo pacman -S --noconfirm --needed bbswitch-dkms
+#sudo pacman -S --noconfirm --needed bbswitch-dkms
 
 sudo bash -c "echo 'bbswitch ' > /etc/modules-load.d/bbswitch.conf"
 sudo bash -c "echo 'options bbswitch load_state=0 unload_state=0' > /etc/modprobe.d/bbswitch.conf"
@@ -27,7 +27,7 @@ sudo bash -c "echo 'options bbswitch load_state=0 unload_state=0' > /etc/modprob
 sudo pacman -S --noconfirm --needed intel-media-driver
 sudo pacman -S --noconfirm --needed libva libva-utils
 
-# test with intel hd 630#
+# support hardware decode/encode test with intel hd 620 
 sudo bash -c "echo 'export LIBVA_DRIVER_NAME=iHD' > /etc/profile.d/intel-media.sh"
 
 # install mesa-demos for glxgear
@@ -36,7 +36,7 @@ sudo pacman -S --noconfirm --needed mesa-demos
 
 # install bumblebeed
 
-sudo pacman -S --noconfirm bumblebee
-sudo systemctl enable bumblebeed.service
-sudo gpasswd -a $user bumblebee
+#sudo pacman -S --noconfirm bumblebee
+#sudo systemctl enable bumblebeed.service
+#sudo gpasswd -a $user bumblebee
 
