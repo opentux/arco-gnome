@@ -15,10 +15,10 @@ sh 500-software-AUR-repo-distro-specific-v1.sh
 #sh 600-software-from-ArcoLinux-repo-v1.sh
 sh 700-installing-fonts-v2.sh
 sh 900-fix-microcode-error-v1.sh
-sh disable-nvidia.sh
+sh Personal/disable-nvidia.sh
 sh Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
-sh virtu.sh
-sh perso-opti.sh
+sh Personal/virtu.sh
+sh Personal/perso-opti.sh
 sh setup-git-v1.sh
 
 # delete termite
