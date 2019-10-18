@@ -35,7 +35,7 @@ sh AUR-DS/install-appimagelauncher-v*.sh
 
 #sh AUR/install-yad-v*.sh
 
-sh AUR-DS/install-nvidia-xrun-v*.sh
+#sh AUR-DS/install-nvidia-xrun-v*.sh
 
 sh AUR-DS/install-timeshift-v*.sh
 
@@ -50,7 +50,9 @@ sh AUR-DS/install-google-chrome-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
 
-#sh AUR-DS/install-optimus-manager-v*.sh
+sh AUR-DS/install-optimus-manager-v*.sh
+
+sh AUR-DS/install-bauh-v*.sh
 
 #Gnome shell extension installer
 sh AUR-DS/install-gnome-shell-extension-installer-v*.sh
