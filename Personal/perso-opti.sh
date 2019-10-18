@@ -22,3 +22,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo systemctl stop lvm2-lvmetad.socket lvm2-lvmetad.service
 sudo systemctl disable lvm2-lvmetad.socket lvm2-lvmetad.service
 
+#Disable Wayland for optimus manager
+
+sudo sed -i '/#WaylandEnable=false/c\WaylandEnable=false' /etc/gdm/custom.conf
