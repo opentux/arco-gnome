@@ -57,6 +57,8 @@ sh AUR-DS/install-bauh-v*.sh
 #Gnome shell extension installer
 sh AUR-DS/install-gnome-shell-extension-installer-v*.sh
 
+#only office
+sh AUR-DS/install-onlyoffice-v*.sh
 
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
