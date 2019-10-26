@@ -1,20 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
-
 # software from standard Arch Linux repositories
 # Core, Extra, Community, Multilib repositories
 echo "Installing category Accessories"
@@ -80,8 +65,8 @@ echo "Installing category Office"
 sudo pacman -S --noconfirm --needed evince
 #sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
-sudo pacman -S --noconfirm --needed libreoffice-fresh
-sudo pacman -S --noconfirm --needed libreoffice-fresh-fr
+#sudo pacman -S --noconfirm --needed libreoffice-fresh
+#sudo pacman -S --noconfirm --needed libreoffice-fresh-fr
 
 echo "Installing category Other"
 
@@ -159,6 +144,8 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip p7zip mtools mc sharut
 
 ###############################################################################################
 
+# Nvidia driver 
+sudo pacman -S --noconfirm --needed nvidia
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
