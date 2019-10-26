@@ -43,7 +43,7 @@ sh AUR-DS/install-mint-y-v*.sh
 
 sh AUR-DS/install-korla-icon-theme-v*.sh
 
-sh AUR-DS/install-google-chrome-v*.sh
+#sh AUR-DS/install-google-chrome-v*.sh
 
 #sh AUR-DS/install-flat-remix-v*.sh
 #sh AUR-DS/install-gitkraken-v*.sh
