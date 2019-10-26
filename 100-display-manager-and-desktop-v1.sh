@@ -3,9 +3,9 @@ set -e
 sudo pacman -Syyu --noconfirm
 
 #installing displaymanager or login manager
-#sudo pacman -S --noconfirm --needed gdm
+sudo pacman -S --noconfirm --needed gdm
 
-sudo AUR-DS/install-gdm-prime-v1.sh
+#sudo AUR-DS/install-gdm-prime-v1.sh
 
 #installing desktop environment
 sudo pacman -S gnome gnome-extra --noconfirm --needed
