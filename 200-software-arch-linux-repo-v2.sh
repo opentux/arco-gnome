@@ -146,6 +146,7 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip p7zip mtools mc sharut
 
 # Nvidia driver 
 sudo pacman -S --noconfirm --needed nvidia
+sudo pacman -S --noconfirm --needed nvidia-settings
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
