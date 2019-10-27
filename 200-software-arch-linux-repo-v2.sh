@@ -133,7 +133,7 @@ sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed aria2
 sudo pacman -S --noconfirm --needed ccache
-sudo pacman -S --noconfirm --needed breeze
+#sudo pacman -S --noconfirm --needed breeze
 #sudo pacman -S --noconfirm --needed
 
 
