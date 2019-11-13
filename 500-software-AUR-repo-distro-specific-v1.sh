@@ -45,7 +45,7 @@ sh AUR-DS/install-korla-icon-theme-v*.sh
 
 #sh AUR-DS/install-google-chrome-v*.sh
 
-sh AUR-DS/install-flat-remix-v*.sh
+#sh AUR-DS/install-flat-remix-v*.sh
 #sh AUR-DS/install-gitkraken-v*.sh
 
 sh AUR-DS/install-imagewriter-v*.sh
