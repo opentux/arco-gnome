@@ -4,7 +4,7 @@ set -e
 # Core, Extra, Community, Multilib repositories
 echo "Installing category Accessories"
 
-sudo pacman -S --noconfirm --needed cmatrix
+#sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed guake
@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm --needed guake
 
 echo "Installing category Development"
 
-sudo pacman -S --noconfirm --needed atom
+#sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed make
 sudo pacman -S --noconfirm --needed automake
 sudo pacman -S --noconfirm --needed gcc
@@ -56,8 +56,8 @@ echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed shotwell
 #sudo pacman -S --noconfirm --needed simplescreenrecorder
-#sudo pacman -S --noconfirm --needed snappy-player
-sudo pacman -S --noconfirm --needed vlc
+sudo pacman -S --noconfirm --needed snappy-player
+#sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed totem
 
 echo "Installing category Office"
@@ -91,7 +91,7 @@ sudo pacman -S --noconfirm --needed gnome-system-monitor
 sudo pacman -S --noconfirm --needed gnome-terminal
 sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
-sudo pacman -S --noconfirm --needed grsync
+#sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp gvfs-smb
 sudo pacman -S --noconfirm --needed gvfs-google
@@ -115,7 +115,7 @@ sudo pacman -S --noconfirm --needed qt5ct
 #sudo pacman -S --noconfirm --needed screenfetch
 #sudo pacman -S --noconfirm --needed scrot
 #sudo pacman -S --noconfirm --needed simple-scan
-sudo pacman -S --noconfirm --needed sysstat
+#sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 #sudo pacman -S --noconfirm --needed termite
 #sudo pacman -S --noconfirm --needed thunar
