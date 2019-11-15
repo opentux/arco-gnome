@@ -31,8 +31,8 @@ sudo pacman -S --noconfirm --needed libva libva-utils
 sudo bash -c "echo 'export LIBVA_DRIVER_NAME=iHD' > /etc/profile.d/intel-media.sh"
 
 # install mesa-demos for glxgear
-sudo pacman -R --noconfirm glxinfo
-sudo pacman -S --noconfirm --needed mesa-demos
+#sudo pacman -R --noconfirm glxinfo
+#sudo pacman -S --noconfirm --needed mesa-demos
 
 # install bumblebeed
 
