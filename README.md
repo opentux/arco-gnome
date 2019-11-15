@@ -37,5 +37,5 @@ pacman -Syyu # for upgrade
 reboot # for reboot
 
 and launch
-./start-install-notebook-v1.sh #### for notebook with nvidia gpu
+./start-install-notebook-i7-8550-v1.sh #### for notebook with i7-8550u ans Optimus Nvidia with optimus-manager 
 and reboot
