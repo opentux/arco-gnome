@@ -19,8 +19,8 @@ sh Personal/disable-nvidia.sh
 sh Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
 sh Personal/virtu.sh
 sh Personal/perso-opti.sh
+sh Personal/intel-undervolt-8550u.sh
 sh setup-git-v1.sh
-
 # delete termite
 sudo pacman -R --noconfirm termite
 
